@@ -8,6 +8,14 @@ import (
 func main() {
 fmt.Println("Hello, Black Hat Gophers!")
 }
-----------------
+------
 Note that go run executed your file, but it didn't produce a standalone binary file.
 توجه داشته باشید که گو ران فایل شما را اجرا میکنه ، ولی یک فایل باینری جداگانه تولید نمیکنه.
+
+------
+To reduce the file size, you can include additional flags during 
+the build process to strip this information from the binary.
+برای کاهش اندازه فایل، می‌توانید پرچم‌های اضافی را در طول فرآیند ساخت اضافه کنید
+تا این اطلاعات را از باینری حذف کنید.
+
+------
