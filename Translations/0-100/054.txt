@@ -1,0 +1,10 @@
+As an example, save the following code under a project
+directory within $GOPATH/src (remember, you created this
+workspace during installation) as main.go:
+package main
+import (
+"fmt"
+)
+func main() {
+fmt.Println("Hello, Black Hat Gophers!")
+}
