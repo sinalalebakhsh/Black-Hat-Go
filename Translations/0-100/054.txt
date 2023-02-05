@@ -8,3 +8,6 @@ import (
 func main() {
 fmt.Println("Hello, Black Hat Gophers!")
 }
+----------------
+Note that go run executed your file, but it didn't produce a standalone binary file.
+توجه داشته باشید که گو ران فایل شما را اجرا میکنه ، ولی یک فایل باینری جداگانه تولید نمیکنه.
