@@ -24,3 +24,5 @@ For example, the following command will reduce the binary size by approximately 
 به عنوان مثال، دستور زیر اندازه باینری را تقریباً 30 درصد کاهش می دهد:
 
 ----
+To cross-compile, you need to set a constraint
+برای کامپایل متقابل، باید یک محدودیت تعیین کنید
