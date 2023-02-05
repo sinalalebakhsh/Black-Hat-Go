@@ -31,7 +31,12 @@ To cross-compile, you need to set a constraint
 Although Go developers traditionally install dependencies with go get, 
 problems can arise if those dependent packages receive updates that break backward compatibility. 
 Go has introduced two separate tools—dep and mod—to lock.
-
 اگرچه توسعه‌دهندگان Go به طور سنتی وابستگی‌ها را با go get نصب می‌کنند،
  اما اگر بسته‌های وابسته به‌روزرسانی‌هایی را دریافت کنند که سازگاری با گذشته را از بین می‌برند، ممکن است مشکلاتی ایجاد شود
 . Go دو ابزار جداگانه-dep و mod- را برای قفل معرفی کرده است.
+
+----
+Adhering to arbitrary styling preferences might seem strange at first, 
+particularly if they differ from your habits.
+پیروی از ترجیحات ظاهری دلخواه ممکن است در ابتدا عجیب به نظر برسد،
+ به خصوص اگر با عادات شما متفاوت باشد.
