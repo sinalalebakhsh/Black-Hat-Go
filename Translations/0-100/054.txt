@@ -26,3 +26,12 @@ For example, the following command will reduce the binary size by approximately 
 ----
 To cross-compile, you need to set a constraint
 برای کامپایل متقابل، باید یک محدودیت تعیین کنید
+
+----
+Although Go developers traditionally install dependencies with go get, 
+problems can arise if those dependent packages receive updates that break backward compatibility. 
+Go has introduced two separate tools—dep and mod—to lock.
+
+اگرچه توسعه‌دهندگان Go به طور سنتی وابستگی‌ها را با go get نصب می‌کنند،
+ اما اگر بسته‌های وابسته به‌روزرسانی‌هایی را دریافت کنند که سازگاری با گذشته را از بین می‌برند، ممکن است مشکلاتی ایجاد شود
+. Go دو ابزار جداگانه-dep و mod- را برای قفل معرفی کرده است.
